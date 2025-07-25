@@ -107,7 +107,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btnVerify = findViewById(R.id.bt_verify);
+        Button btnVerify;
+        btnVerify = findViewById(R.id.bt_verify);
         btnVerify.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
