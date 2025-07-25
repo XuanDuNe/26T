@@ -1,0 +1,53 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iritech.iris"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:4:5-81
+11-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:4:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:5:5-80
+12-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:5:22-77
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:6:5-65
+13-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:7:5-76
+14-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:7:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:8:5-79
+15-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:8:22-76
+16    <!-- <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/> -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:10:5-67
+17-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:10:22-64
+18
+19    <application>
+19-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:12:5-22:19
+20        <activity
+20-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:13:9-20:20
+21            android:name="com.iritech.iris.CaptureActivity"
+21-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:14:13-44
+22            android:label="@string/title_activity_iri"
+22-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:15:13-55
+23            android:noHistory="false"
+23-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:16:13-38
+24            android:screenOrientation="portrait"
+24-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:18:13-49
+25            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+25-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:17:13-69
+26        </activity>
+27        <activity android:name="com.iritech.iris.TestActivity" />
+27-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:21:9-50
+27-->C:\Users\Du\Downloads\iricaptureplus_UVC_r20126 (1)\iricaptureplus_r20126\sample\iris\src\main\AndroidManifest.xml:21:19-47
+28    </application>
+29
+30</manifest>

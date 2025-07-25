@@ -1,0 +1,123 @@
+-dontwarn org.apache.http.**
+-dontwarn android.net.http.AndroidHttpClient
+-dontwarn com.google.android.gms.**
+-dontwarn com.android.volley.toolbox.**
+-ignorewarnings
+#-dontobfuscate
+#-dontshrink
+-printmapping out.map
+-keep  class com.iritech.mirisreg704.IrisReg { private long mJniContext;}
+-keep class com.iritech.mirisreg704.IrisReg.** { **(**);}
+-keep class com.iritech.mirisreg704.IrisReg {
+    public int attach(...);
+    public void reloadLicense(...);
+    public *;
+    public int getResultTemplates(...);
+}
+-keep class com.iritech.mirisreg704.MatchResult {*;}
+-keep class com.iritech.mirisreg704.GalleryInfo {*;}
+-keep class com.iritech.mirisreg704.BiographicInfo { *;}
+-keep class com.iritech.mirisreg704.TemplateInfo { *;}
+-keep class com.iritech.util.DataBuffer {*;}
+-keep class com.iritech.mirisreg704.IRegSetting {*;}
+-keep class com.iritech.util.** {*;}
+-keep class com.iritech.irilivenessdetector.** {*;}
+-keep class com.iritech.irienvoy.** {*;}
+
+-keep  class com.iritech.mqel704.IrisCapture { private long mJniContext; private int onEventFromNative(...);
+private void callBackLicenseFailNative(...);
+*** mNativeHelper;
+*** mNativeLibDir;
+*** mCustomerId;
+*** mLicenseId;
+}
+-keep class com.iritech.mqel704.IrisCapture$CameraPreviewCallback { public *;}
+-keep class com.iritech.mqel704.IrisCamera {
+public protected *;
+private long mJniCamera;
+private int mOrientation;
+*** mPreviewCallback;
+	private boolean mIsMirror;
+	private Context mCtx;
+	protected *** mCamera;
+	protected int onNativeMsg(...);
+	public <init>(...);
+	}
+-keep class com.iritech.mqel704.IrisCamera2 {
+private long mJniCamera;
+private int mOrientation;
+*** mPreviewCallback;
+	private boolean mIsMirror;
+	private Context mCtx;
+	protected *** mCamera;
+	protected int onNativeMsg(...);
+	public <init>(...);
+	public *;
+	protected *;
+	}
+-keep class com.iritech.mqel704.IrisCamera$Size {*;}
+-keep class com.iritech.mqel704.IrisCamera$Parameters {*;}
+-keep class com.iritech.mqel704.IrisCapture$Notification { <init>(...);}
+-keep public interface com.iritech.mqel704.IrisCapture$OnCaptureListener {*;}
+-keep class com.iritech.mqel704.IrisCapture {
+    public <init>(...);
+    public static *;
+    public void setCaptureListener(...);
+    public void reloadLicense(...);
+    public int startCapture(...);
+    public *;
+}
+
+-keep class com.iritech.mqel704.Ellipse {*;}
+-keep class com.iritech.mqel704.IrisQuality {*;}
+-keep class com.iritech.mqel704.ImageData {*;}
+-keep class com.iritech.mqel704.Float {*;}
+-keep class com.iritech.mqel704.Rect {*;}
+-keep class com.iritech.mqel704.CaptureSetting {*;}
+-keep class com.iritech.mqel704.CaptureSetting$* {*;}
+-keep class com.iritech.mqel704.CaptureStatus {*;}
+-keep class com.iritech.mqel704.FICCaptureResult {*;}
+-keep class com.iritech.mqel704.GemResult {
+    *;
+}
+-keep class com.iritech.mqel704.ImageFormat {
+    public static *;
+}
+-keep class com.iritech.mqel704.ImageKind {
+    public static *;
+}
+-keep class com.iritech.mqel704.Indication {*;}
+
+-keep class com.iritech.android.IriTechBuildConfig {*;}
+
+-keep public interface com.iritech.mqel704.IRControl {*;}
+-keep public interface com.iritech.mqel704.ILicenseFailCallBack {*;}
+
+-keep public interface com.iritech.android.licenseactivator.IActivationStatusReporter {*;}
+-keep class com.iritech.android.licenseactivator.LicenseActivator {public *;}
+-keep class com.iritech.android.licenseactivator.BackupResult {public *;}
+-keep class com.iritech.android.licenseactivator.LicenseError {public *;}
+-keep class com.iritech.android.licenseactivator.LicenseActivatorException {public *;}
+-keepattributes Exceptions
+
+#-keepparameternames
+#-renamesourcefileattribute SourceFile
+#-keepattributes Exceptions,InnerClasses,Signature,Deprecated,SourceFile,LineNumberTable,EnclosingMethod
+
+-assumenosideeffects class android.util.Log {
+    public static boolean isLoggable(java.lang.String, int);
+    public static *** d(...);
+    public static *** v(...);
+    public static *** w(...);
+}
+
+
+-keepclasseswithmembernames class * { native <methods>;
+public static final int *;}
+
+-keep class com.iritech.mqel704.GemValue extends * {
+*** value;
+}
+
+-keep class com.iritech.android.iirisservice.MutableBoolean{*;}
+
