@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Du\\Downloads\\iricaptureplus_UVC_r20126 (1)\\iricaptureplus_r20126\\sample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Du\\AndroidStudioProjects\\26T\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\Du\\Downloads\\iricaptureplus_UVC_r20126 (1)\\iricaptureplus_r20126\\sample\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,15,10,17",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "57,540,384,634",
-                        "endLines": "8,15,13,17",
-                        "endColumns": "12,90,12,80",
-                        "endOffsets": "376,626,532,710"
-                    },
-                    "to": {
-                        "startLines": "656,662,663,667",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "41814,42133,42223,42373",
-                        "endLines": "661,662,666,667",
-                        "endColumns": "12,89,12,79",
-                        "endOffsets": "42128,42218,42368,42448"
-                    }
-                },
                 {
                     "source": "C:\\Users\\Du\\.gradle\\caches\\transforms-2\\files-2.1\\680f99f5a60980a4fb7a012e32eff12d\\appcompat-1.1.0\\res\\values\\values.xml",
                     "from": {
@@ -56,44 +37,6 @@
                         "startOffsets": "31892,32222,32361,32408,32463,33345,33399,33451,33500,33561",
                         "endColumns": "39,42,46,54,44,53,51,48,60,49",
                         "endOffsets": "31927,32260,32403,32458,32503,33394,33446,33495,33556,33606"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Du\\Downloads\\iricaptureplus_UVC_r20126 (1)\\iricaptureplus_r20126\\sample\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endLines": "2",
-                        "endColumns": "13",
-                        "endOffsets": "79"
-                    },
-                    "to": {
-                        "startLines": "609",
-                        "startColumns": "4",
-                        "startOffsets": "36560",
-                        "endLines": "610",
-                        "endColumns": "13",
-                        "endOffsets": "36621"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Du\\Downloads\\iricaptureplus_UVC_r20126 (1)\\iricaptureplus_r20126\\sample\\iris\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "3,4,5,25,38,63,75,86",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "97,140,205,1069,1603,2656,3330,3768",
-                        "endLines": "3,4,24,37,62,74,85,90",
-                        "endColumns": "42,64,24,24,24,24,24,24",
-                        "endOffsets": "135,200,1064,1598,2651,3325,3763,4008"
-                    },
-                    "to": {
-                        "startLines": "645,646,3768,3843,4045,4483,4529,4778",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "40987,41030,239877,246145,262628,287877,290358,305441",
-                        "endLines": "645,646,3787,3855,4069,4494,4539,4782",
-                        "endColumns": "42,64,24,24,24,24,24,24",
-                        "endOffsets": "41025,41090,240736,246674,263676,288546,290791,305681"
                     }
                 },
                 {
@@ -171,7 +114,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Du\\Downloads\\iricaptureplus_UVC_r20126 (1)\\iricaptureplus_r20126\\sample\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\Du\\AndroidStudioProjects\\26T\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "4,2,3",
                         "startColumns": "4,4,4",
@@ -185,6 +128,23 @@
                         "startOffsets": "9973,10019,10066",
                         "endColumns": "45,46,50",
                         "endOffsets": "10014,10061,10112"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Du\\AndroidStudioProjects\\26T\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "43",
+                        "endOffsets": "96"
+                    },
+                    "to": {
+                        "startLines": "345",
+                        "startColumns": "4",
+                        "startOffsets": "20395",
+                        "endColumns": "43",
+                        "endOffsets": "20434"
                     }
                 },
                 {
@@ -202,23 +162,6 @@
                         "startOffsets": "13588,28899,28952,29005,29058,157834,158010,158132,158394,158589",
                         "endColumns": "88,52,52,52,52,65,121,60,65,66",
                         "endOffsets": "13672,28947,29000,29053,29106,157895,158127,158188,158455,158651"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Du\\Downloads\\iricaptureplus_UVC_r20126 (1)\\iricaptureplus_r20126\\sample\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "43",
-                        "endOffsets": "96"
-                    },
-                    "to": {
-                        "startLines": "345",
-                        "startColumns": "4",
-                        "startOffsets": "20395",
-                        "endColumns": "43",
-                        "endOffsets": "20434"
                     }
                 },
                 {
@@ -255,6 +198,25 @@
                         "startOffsets": "34197,38138",
                         "endColumns": "67,166",
                         "endOffsets": "34260,38300"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Du\\AndroidStudioProjects\\26T\\iris\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "3,4,5,25,38,63,75,86",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "97,140,205,1069,1603,2656,3330,3768",
+                        "endLines": "3,4,24,37,62,74,85,90",
+                        "endColumns": "42,64,24,24,24,24,24,24",
+                        "endOffsets": "135,200,1064,1598,2651,3325,3763,4008"
+                    },
+                    "to": {
+                        "startLines": "645,646,3768,3843,4045,4483,4529,4778",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "40987,41030,239877,246145,262628,287877,290358,305441",
+                        "endLines": "645,646,3787,3855,4069,4494,4539,4782",
+                        "endColumns": "42,64,24,24,24,24,24,24",
+                        "endOffsets": "41025,41090,240736,246674,263676,288546,290791,305681"
                     }
                 },
                 {
@@ -296,6 +258,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Du\\AndroidStudioProjects\\26T\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "2",
+                        "endColumns": "13",
+                        "endOffsets": "79"
+                    },
+                    "to": {
+                        "startLines": "609",
+                        "startColumns": "4",
+                        "startOffsets": "36560",
+                        "endLines": "610",
+                        "endColumns": "13",
+                        "endOffsets": "36621"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Du\\.gradle\\caches\\transforms-2\\files-2.1\\9f3d1a960b445437804b23cee56e2af7\\appcompat-resources-1.1.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,29,36,47,74",
@@ -312,6 +293,25 @@
                         "endLines": "3190,3197,3208,4638,4643",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "209322,209707,210304,296136,296406"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Du\\AndroidStudioProjects\\26T\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,15,10,17",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "57,540,384,634",
+                        "endLines": "8,15,13,17",
+                        "endColumns": "12,90,12,80",
+                        "endOffsets": "376,626,532,710"
+                    },
+                    "to": {
+                        "startLines": "656,662,663,667",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "41814,42133,42223,42373",
+                        "endLines": "661,662,666,667",
+                        "endColumns": "12,89,12,79",
+                        "endOffsets": "42128,42218,42368,42448"
                     }
                 },
                 {

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Du\\Downloads\\iricaptureplus_UVC_r20126 (1)\\iricaptureplus_r20126\\sample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
+            "outputFile": "C:\\Users\\Du\\AndroidStudioProjects\\26T\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Du\\.gradle\\caches\\transforms-2\\files-2.1\\05212330d71c73cac8c0453c09e12909\\jetified-play-services-basement-17.0.0\\res\\values-mk\\values.xml",
